@@ -1,0 +1,15 @@
+name = "ansiColor"
+version = "0.1.0"
+defaultTargets = ["ansicolor"]
+testDriver = "tests"
+
+[[lean_lib]]
+name = "AnsiColor"
+
+[[lean_exe]]
+name = "example"
+root = "Example"
+
+[[lean_lib]]
+name = "tests"
+globs = ["Tests.+"]

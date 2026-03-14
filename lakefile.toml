@@ -1,10 +1,10 @@
-name = "AnsiColor"
+name = "ansiColor"
 version = "0.1.0"
-defaultTargets = ["AnsiColor"]
+defaultTargets = ["ansiColor"]
 testDriver = "tests"
 
 [[lean_lib]]
-name = "AnsiColor"
+name = "ansiColor"
 
 [[lean_exe]]
 name = "example"

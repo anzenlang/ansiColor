@@ -1,4 +1,4 @@
-name = "AnsiColor"
+name = "ansiColor"
 version = "0.1.0"
 defaultTargets = ["AnsiColor"]
 testDriver = "tests"

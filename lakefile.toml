@@ -5,6 +5,7 @@ testDriver = "tests"
 
 [[lean_lib]]
 name = "ansiColor"
+root = "AnsiColor"
 
 [[lean_exe]]
 name = "example"

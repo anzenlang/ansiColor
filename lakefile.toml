@@ -12,4 +12,4 @@ root = "Example"
 
 [[lean_lib]]
 name = "tests"
-globs = ["Tests.+"]
+globs = ["AnsiColorTests.+"]

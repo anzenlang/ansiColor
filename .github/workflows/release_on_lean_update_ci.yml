@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - 'main'
-      - 'master'
     paths:
       - 'lean-toolchain'
 
@@ -20,9 +19,3 @@ jobs:
       with:
         do-release: true
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Upload Release Artifact
-      if: github.event_name == 'release'
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        TAG: ${{ github.event.release.tag_name }}
-      run: lake upload $TAG

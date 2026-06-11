@@ -1,7 +1,8 @@
 name = "ansiColor"
 version = "0.1.0"
 defaultTargets = ["AnsiColor"]
-testDriver = "tests"
+testDriver = "ansiColorTests"
+license = "Apache-2.0"
 
 [[lean_lib]]
 name = "AnsiColor"
@@ -11,5 +12,5 @@ name = "example"
 root = "Example"
 
 [[lean_lib]]
-name = "tests"
+name = "ansiColorTests"
 globs = ["AnsiColorTests.+"]
